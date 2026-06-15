@@ -25,4 +25,4 @@ df = df.drop_duplicates()
 caminho_arquivo_processado = 'data/processed/netflix_dados_limpos.csv'
 df.to_csv(caminho_arquivo_processado, index=False)
 
-print(f"\n🎉 Sucesso! Arquivo limpo salvo em: {caminho_arquivo_processado}")
+print(f"Sucesso! Arquivo limpo salvo em: {caminho_arquivo_processado}")
